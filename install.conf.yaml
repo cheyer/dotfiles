@@ -1,0 +1,26 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.bashrc: files/bashrc
+    ~/.zshrc: files/zshrc
+    ~/.vimrc: files/vimrc
+    ~/.ssh/config: ssh/ssh_config
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  -
+    command: ./ssh/setup-ssh.sh
+    description: Setting up SSH config
+    stdout: true
+  -
+    command: ./git/setup-git.sh
+    description: Setting up Git config
+    stdout: true
+  -
+    command: ./mac/setup-homebrew.sh
+    description: Setting up Homebrew
+    stdout: true
