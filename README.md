@@ -1,6 +1,7 @@
 # Dotfiles
 
 > Personal dotfiles configuration for Zsh, Git etc. for bootstraping a new machine.
+
 build on [Dotbot](https://github.com/anishathalye/dotbot)
 
 
@@ -20,6 +21,12 @@ Now you can run the install script:
 ```
 cd .dotfiles
 ./install
+```
+
+## Apps
+To install the recommended apps, just run:
+```
+make setup-apps
 ```
 
 
