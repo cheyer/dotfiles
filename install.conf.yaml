@@ -8,7 +8,9 @@
     ~/.bashrc: files/bashrc
     ~/.zshrc: files/zshrc
     ~/.vimrc: files/vimrc
-    ~/.ssh/config: ssh/ssh_config
+    ~/.ssh/config: ssh/ssh_config      
+    # VS Code MacOS
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
