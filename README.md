@@ -29,6 +29,16 @@ To install the recommended apps, just run:
 make setup-apps
 ```
 
+## VS Code
+To install the recommended extension and setup fonts and theme for VS Code, just run:
+```
+make setup-vscode
+```
+To save currently installed extensions, just run the following script and commit the changes:
+```
+make vscode-extensions-save
+```
+
 
 ## Issues
 Currently SSH keys cannot be added via script, even though the install script will not fail.
