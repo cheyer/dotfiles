@@ -1,0 +1,4 @@
+foxundermoon.shell-format
+ms-vscode.makefile-tools
+ms-vscode.vscode-typescript-next
+zhuangtongfa.material-theme

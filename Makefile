@@ -15,3 +15,10 @@ setup-apps:
 setup-vscode:
 	./vscode/setup-vscode.sh
 
+# Save current extensions
+vscode-extensions-save:
+	code --list-extensions > ./vscode/extensions.txt
+
+# Install extensions
+vscode-extensions-install:
+	cat ./vscode/extensions.txt | xargs -L 1 code --install-extension
