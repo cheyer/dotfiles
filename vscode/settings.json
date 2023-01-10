@@ -1,8 +1,11 @@
 {
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "window.commandCenter": true,
   "editor.formatOnSave": true,
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  },
+  "editor.fontFamily": "'Victor Mono', Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 20
 }

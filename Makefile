@@ -10,3 +10,8 @@ link:
 # Install apps
 setup-apps:
 	./mac/setup-apps.sh
+
+# Setup VsCode
+setup-vscode:
+	./vscode/setup-vscode.sh
+
