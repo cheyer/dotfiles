@@ -16,3 +16,5 @@ for i in "${arr[@]}"; do
     echo "💻 Installing $i"
     brew install --cask $i
 done
+
+brew install gh

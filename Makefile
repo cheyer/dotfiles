@@ -11,6 +11,10 @@ link:
 setup-apps:
 	./mac/setup-apps.sh
 
+# Install zsh
+setup-zsh:
+	./mac/setup-zsh.sh
+
 # Setup VsCode
 setup-vscode:
 	./vscode/setup-vscode.sh
