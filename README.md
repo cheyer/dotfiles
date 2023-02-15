@@ -24,6 +24,12 @@ cd .dotfiles
 ```
 
 ## Apps
+To install zsh, just run:
+```
+make setup-zsh
+```
+
+## Apps
 To install the recommended apps, just run:
 ```
 make setup-apps
@@ -53,3 +59,13 @@ and the SSH config should be complete.
 * [Dotbot](https://github.com/anishathalye/dotbot)
 * [Bootstrap your Dotfiles with dotbot](https://www.elliotdenolf.com/posts/bootstrap-your-dotfiles-with-dotbot)
 * [MacOS set-defaults.sh inspiration](https://github.com/denolfe/dotfiles/blob/master/macos/set-defaults.sh)
+
+## Tools
+
+| Name                                           	| Type             	| Description                                                        	|
+|------------------------------------------------	|------------------	|--------------------------------------------------------------------	|
+| [Warp](https://www.warp.dev/)                  	| Terminal         	| Super fast and modern terminal with batteries included.            	|
+| [ZSH](https://ohmyz.sh/)                       	| Shell            	| Default shell.                                                     	|
+| [VS Code](https://github.com/microsoft/vscode) 	| Editor           	| Default code editor.                                               	|
+| [Raycast](https://www.raycast.com/)            	| Launcher         	| Nice spotlight replacement, comes with a lot more functionalities. 	|
+| [Browserosaurus](https://browserosaurus.com/)  	| Browser Selector 	| Asks in which browser to open a link.                              	|
