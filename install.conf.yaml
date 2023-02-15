@@ -26,3 +26,7 @@
     command: ./mac/setup-homebrew.sh
     description: Setting up Homebrew
     stdout: true
+  -
+    command: ./mac/setup-tea.sh
+    description: Setting up Tea
+    stdout: true
