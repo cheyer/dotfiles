@@ -62,10 +62,11 @@ and the SSH config should be complete.
 
 ## Tools
 
-| Name                                           	| Type             	| Description                                                        	|
-|------------------------------------------------	|------------------	|--------------------------------------------------------------------	|
-| [Warp](https://www.warp.dev/)                  	| Terminal         	| Super fast and modern terminal with batteries included.            	|
-| [ZSH](https://ohmyz.sh/)                       	| Shell            	| Default shell.                                                     	|
-| [VS Code](https://github.com/microsoft/vscode) 	| Editor           	| Default code editor.                                               	|
-| [Raycast](https://www.raycast.com/)            	| Launcher         	| Nice spotlight replacement, comes with a lot more functionalities. 	|
-| [Browserosaurus](https://browserosaurus.com/)  	| Browser Selector 	| Asks in which browser to open a link.                              	|
+| Name                                           	| Type             	| Description                                                                        	|
+|------------------------------------------------	|------------------	|-----------------------------------------------------------------------------------	|
+| [Warp](https://www.warp.dev/)                  	| Terminal         	| Super fast and modern terminal with batteries included.                           	|
+| [ZSH](https://ohmyz.sh/)                       	| Shell            	| Default shell.                                                                     	|
+| [TEA CLI](https://tea.xyz/tea-cli/)             	| Package Manager  	| Next level package manager with [magic](https://github.com/teaxyz/cli#magic).       	|
+| [VS Code](https://github.com/microsoft/vscode) 	| Editor           	| Default code editor.                                                              	|
+| [Raycast](https://www.raycast.com/)            	| Launcher         	| Nice spotlight replacement, comes with a lot more functionalities.                	|
+| [Browserosaurus](https://browserosaurus.com/)  	| Browser Selector 	| Asks in which browser to open a link.                                             	|
